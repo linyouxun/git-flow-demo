@@ -1,0 +1,54 @@
+Arguments: 
+  D:\soft\node.exe C:\Users\lyx\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add CryptoJS
+
+PATH: 
+  D:\soft\Git\mingw64\bin;D:\soft\Git\usr\bin;C:\Users\lyx\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\soft;D:\soft\Git\cmd;C:\Users\lyx\AppData\Local\Microsoft\WindowsApps;C:\Users\lyx\AppData\Roaming\npm;D:\soft\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/CryptoJS: Not found
+      at Request.params.callback [as _callback] (C:\Users\lyx\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66975:18)
+      at Request.self.callback (C:\Users\lyx\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140727:22)
+      at Request.emit (events.js:321:20)
+      at Request.<anonymous> (C:\Users\lyx\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141699:10)
+      at Request.emit (events.js:321:20)
+      at IncomingMessage.<anonymous> (C:\Users\lyx\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141621:12)
+      at Object.onceWrapper (events.js:427:28)
+      at IncomingMessage.emit (events.js:333:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "git-flow-demo",
+    "version": "1.0.0",
+    "description": "HELLO WORLD",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/linyouxun/git-flow-demo.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/linyouxun/git-flow-demo/issues"
+    },
+    "homepage": "https://github.com/linyouxun/git-flow-demo#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
