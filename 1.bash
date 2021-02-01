@@ -1,0 +1,13 @@
+curl 'http://api.ksjjks.com/api/book/read_chapter?bookId=1442&number=1' \
+  -H 'Connection: keep-alive' \
+  -H 'User-Id: 2512174' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'User-Trace-Id: 705e429a5ade4d36ad90b154c2cfa9e5' \
+  -H 'Current-Branch-Id: 1757' \
+  -H 'User-Account: waz362512' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1' \
+  -H 'Origin: http://m.xxcyr.com' \
+  -H 'Referer: http://m.xxcyr.com/' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  --compressed \
+  --insecure
